@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="static/css/send.css">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body style="text-align:center;">
+    <section class="container">
+        <div class="login">
+            <form method="post" action="{{urlfor " ADminController.ADmin "}}">
+                <select class="select" name="ssp" style="width:100px;">
+                    <option value =""></option>
+                    <option value ="baidu">baidu</option>
+                    <option value ="mobfox">mobfox</option>
+                    <option value="smaato">smaato</option>
+                    <option value="youku">youku</option>
+                </select>
+                <p><input type="text" name="num" value="" placeholder="测试次数:1"></p>
+                <p><input type="text" name="ip" value="" placeholder="服务器IP与端口"></p>
+                <p><input type="text" name="width" value="" placeholder="广告宽度:320 "></p>
+                <p><input type="text" name="height" value="" placeholder="广告高度:50 "></p>
+                <p><input type="text" name="os" value="" placeholder="设备系统:iOS "></p>
+                <p><input type="text" name="osv" value="" placeholder="系统版本:8.0 "></p>
+                <p><input type="text" name="bidfloor" value="" placeholder="最低竞价 "></p>
+                <p><input type="text" name="country" value="" placeholder="国家:USA "></p>
+                <p><input type="text" name="region" value="" placeholder="地区 "></p>
+                <p><input type="text" name="city" value="" placeholder="城市 "></p>
+                <p><input type="text" name="id" value="" placeholder="发行商ID:120074590 "></p>
+                <p class="submit" style="text-align:center; "><input type="button" value="停止" onclick="if(confirm( '确定停止？')){location.href='admin.html' } "><input type="submit" name="commit " value="提交 "></p>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

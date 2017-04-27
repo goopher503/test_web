@@ -1,0 +1,98 @@
+2
+=== BidRequest: ===
+id:  5k9u1enhhy78tu3wfvc1ob08i7ifjctl
+ip:  100.16.5.249
+user_agent:  Mozilla/5.0 (Linux; U; Android 2.3.6; it-it; GT-S5570I Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 (Mobile; afma-sdk-a-v6.1.0),gzip(gfe)
+baidu_user_id:  53f6xxp5znv9hd7abt2arop2t11hn9p9
+baidu_user_id_version:  1
+user_category:  260060
+user_category:  250010
+user_category:  270020
+user_category:  260080
+gender:  MALE
+detected_language:  en
+url:  www.baidu1.com
+referer:  www.baidu_refer2.com
+site_category:  13
+site_quality:  3
+page_type:  13
+page_keyword:  baidu7
+page_keyword:  baidu10
+page_keyword:  baidu10
+page_keyword:  baidu8
+page_quality:  1
+excluded_product_category:  85
+excluded_product_category:  81
+excluded_product_category:  69
+excluded_product_category:  72
+excluded_product_category:  93
+excluded_product_category:  67
+adslot { 
+	ad_block_key:  64824
+	sequence_id:  18
+	adslot_type:  12
+	width:  320
+	height:  50
+	slot_visibility:  0
+	creative_type:  1
+	excluded_landing_page_url:  www.landing_page70.com
+	excluded_landing_page_url:  www.landing_page96.com
+	excluded_landing_page_url:  www.landing_page41.com
+	excluded_landing_page_url:  www.landing_page78.com
+	excluded_landing_page_url:  www.landing_page86.com
+	excluded_landing_page_url:  www.landing_page93.com
+	excluded_landing_page_url:  www.landing_page93.com
+	excluded_landing_page_url:  www.landing_page36.com
+	minimum_cpm:  100
+} 
+is_test:  true
+user_geo_info { 
+  user_location { 
+    province:  四川
+    city:  成都
+  }
+} 
+mobile { 
+  device_type:  UNKNOWN_DEVICE
+  platform:  IOS
+  os_version {
+    os_version_major:  2
+    os_version_minor:  2
+    os_version_micro:  2
+  } 
+  for_advertising_id { 
+    type : IDFA
+    id : 7bf2b70c-9c92-44ec-80ad-d7b3bc04f07c
+  }
+  screen_width:  960
+  screen_height:  1280
+  carrier_id:  46000
+}
+
+
+
+
+
+=== BidResponse: ===
+id:  5k9u1enhhy78tu3wfvc1ob08i7ifjctl
+ad {
+  sequence_id:  18
+  creative_id:  3170215101
+  adm: <a href="%%CLICK_URL_0%%" target="_blank"><img border="0" width="320" height="50" src="https://pic.cpxengine.com/dspadmin/dsp/campaigns/22/creative/fXxbKvEtdc.20170215144217516192364.original.jpg" /></a><img width="0" height="0" src="https://cv.cpxengine.com/bespv?r=3170215001&p=%%PRICE%%&id=%%ID%%&m0=17021501&q=82JmkmI3kGktO1k5ki008GVjATXwY1QtZFdik2JjkFRmkFdj&u=5k9u1enhhy78tu3wfvc1ob08i7ifjctl_JSDMK480cmluZzWucFJWa2diZyM&pa=T1hCa1xsYSNWAjLXKExpbnVHOyBVOyBBbmRyb2lMIFIukyH2OyBpd6WpdFsXRWQtUzUW8zBJIEJWa1xMA0dJTMdDUMJSRUDEKSBBc4BsZVdlYMtpd6NWkzkukSLoS09UTUwsIGxpa2UXR2Vja2NpIDZlcn8pb2Hv86HwIEWvYmlsZSBTY1Z9cmMv8TkzAjEXKEWvYmlsZTsXY1ZtYSWzZGstYSW28iHxAjLpAGdCagLoZ2ZlKQ&pi=kTLwAjE2AjUukjQ5&puid=JSDMK480cmluZzWucFJWa2diZyM&appip=8zR9YjQzkjIWYjkwkFM0kzL5Z1I5kmIHYzQyYT8lZjL" /><script type='text/javascript'>document.MAX_ct0 = unescape('https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fgardenscapes-new-acres%2Fid1105855019%3Fmt%3D8'); var uid = '5k9u1enhhy78tu3wfvc1ob08i7ifjctl_JSDMK480cmluZzWucFJWa2diZyM'; var aid = '82JmkmI3kGktO1k5ki008GVjATXwY1QtZFdik2JjkFRmkFdj'; var bid = 'kTLwAjE2AjUukjQ5Z1UyY1VMk1DMk2kwkTEz8T9iY1Rj8GZMkjIxZTUWkzI'; var puid = 'JSDMK480cmluZzWucFJWa2diZyM'; var m3_u = 'https://ad.cpxengine.com/serve/';var m3_r = Math.floor(Math.random()*99999999999);if (!document.MAX_used) document.MAX_used = ',';document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("XeRuZqphhSzyimCTiGLZsNbBsJOoPvheVYoFVMSA");document.write ('&#63;cb=' + m3_r);if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));document.write ("&amp;loc=default"); document.write ("&amp;uid=" + uid); document.write ("&amp;aid=" + aid); document.write ("&amp;bid=" + bid); document.write ("&amp;puid=" + puid); if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));if (document.context) document.write ("&context=" + escape(document.context));if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {    document.write ("&amp;ct0=" + escape(document.MAX_ct0));}if (document.mmm_fo) document.write ("&amp;mmm_fo=1");document.write ("'></scr"+"ipt>"); </script>
+  max_cpm:  235
+  is_cookie_matching:  false
+}
+processing_time_ms:  584268547
+
+
+
+
+
+
+
+
+
+
+
+
+

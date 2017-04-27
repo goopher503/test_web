@@ -1,0 +1,97 @@
+2
+=== BidRequest: ===
+id:  8gj95e6o3tsxyjwxjg0ht0ssq9cd7460
+ip:  73.64.9.40
+user_agent:  Mozilla/5.0 (Linux; U; Android 2.3.6; it-it; GT-S5570I Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 (Mobile; afma-sdk-a-v6.1.0),gzip(gfe)
+baidu_user_id:  q2ri3uasmhaezahv8qq01xpevtd77o8d
+baidu_user_id_version:  1
+user_category:  250030
+user_category:  260050
+user_category:  270080
+user_category:  260020
+gender:  UNKNOWN
+detected_language:  zh-tw
+url:  www.baidu10.com
+referer:  www.baidu_refer5.com
+site_category:  5
+site_quality:  3
+page_type:  11
+page_keyword:  baidu7
+page_keyword:  baidu9
+page_keyword:  baidu1
+page_keyword:  baidu5
+page_keyword:  baidu9
+page_quality:  1
+excluded_product_category:  74
+excluded_product_category:  83
+excluded_product_category:  86
+excluded_product_category:  78
+excluded_product_category:  78
+excluded_product_category:  94
+excluded_product_category:  91
+excluded_product_category:  96
+excluded_product_category:  78
+adslot { 
+	ad_block_key:  1673
+	sequence_id:  4
+	adslot_type:  12
+	width:  320
+	height:  50
+	slot_visibility:  1
+	creative_type:  1
+	excluded_landing_page_url:  www.landing_page59.com
+	excluded_landing_page_url:  www.landing_page98.com
+	excluded_landing_page_url:  www.landing_page2.com
+	minimum_cpm:  100
+} 
+is_test:  true
+user_geo_info { 
+  user_location { 
+    province:  四川
+    city:  成都
+  }
+} 
+mobile { 
+  device_type:  TABLET
+  platform:  IOS
+  os_version {
+    os_version_major:  7
+    os_version_minor:  9
+    os_version_micro:  7
+  } 
+  for_advertising_id { 
+    type : IDFA
+    id : 4690c561-e841-4b7a-810c-da61f30c7e8f
+  }
+  screen_width:  960
+  screen_height:  1280
+  carrier_id:  46000
+}
+
+
+
+
+
+=== BidResponse: ===
+id:  8gj95e6o3tsxyjwxjg0ht0ssq9cd7460
+ad {
+  sequence_id:  4
+  creative_id:  3170215101
+  adm: <a href="%%CLICK_URL_0%%" target="_blank"><img border="0" width="320" height="50" src="https://pic.cpxengine.com/dspadmin/dsp/campaigns/22/creative/fXxbKvEtdc.20170215144217516192364.original.jpg" /></a><img width="0" height="0" src="https://cv.cpxengine.com/bespv?r=3170215001&p=%%PRICE%%&id=%%ID%%&m0=17021501&q=8FY5kGkW8jEtZTX0kS00Yjd9ATXxkGktZGE2k1YzkGk3ZT9m&u=8gj95e6o3tsxyjwxjg0ht0ssq9cd7460_JSDMK480cmluZz0z8GExkGpra6M&pa=T1hCa1xsYSNWAjLXKExpbnVHOyBVOyBBbmRyb2lMIFIukyH2OyBpd6WpdFsXRWQtUzUW8zBJIEJWa1xMA0dJTMdDUMJSRUDEKSBBc4BsZVdlYMtpd6NWkzkukSLoS09UTUwsIGxpa2UXR2Vja2NpIDZlcn8pb2Hv86HwIEWvYmlsZSBTY1Z9cmMv8TkzAjEXKEWvYmlsZTsXY1ZtYSWzZGstYSW28iHxAjLpAGdCagLoZ2ZlKQ&pi=8zku8jQuOSH0kL&puid=JSDMK480cmluZz0z8GExkGpra6M&appip=8TM2Y2kHYTc3YT8mkm8lk2Z9O1Y28mEzYjdl8TLyYTQ" /><script type='text/javascript'>document.MAX_ct0 = unescape('https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fgardenscapes-new-acres%2Fid1105855019%3Fmt%3D8'); var uid = '8gj95e6o3tsxyjwxjg0ht0ssq9cd7460_JSDMK480cmluZz0z8GExkGpra6M'; var aid = '8FY5kGkW8jEtZTX0kS00Yjd9ATXxkGktZGE2k1YzkGk3ZT9m'; var bid = '8zku8jQuOSH0kGVlkmDlZFD9ZF8jkFExkzUHYmDMYzRmZFIyk1UW8Tky'; var puid = 'JSDMK480cmluZz0z8GExkGpra6M'; var m3_u = 'https://ad.cpxengine.com/serve/';var m3_r = Math.floor(Math.random()*99999999999);if (!document.MAX_used) document.MAX_used = ',';document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("XeRuZqphhSzyimCTiGLZsNbBsJOoPvheVYoFVMSA");document.write ('&#63;cb=' + m3_r);if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));document.write ("&amp;loc=default"); document.write ("&amp;uid=" + uid); document.write ("&amp;aid=" + aid); document.write ("&amp;bid=" + bid); document.write ("&amp;puid=" + puid); if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));if (document.context) document.write ("&context=" + escape(document.context));if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {    document.write ("&amp;ct0=" + escape(document.MAX_ct0));}if (document.mmm_fo) document.write ("&amp;mmm_fo=1");document.write ("'></scr"+"ipt>"); </script>
+  max_cpm:  235
+  is_cookie_matching:  false
+}
+processing_time_ms:  584051575
+
+
+
+
+
+
+
+
+
+
+
+
+
