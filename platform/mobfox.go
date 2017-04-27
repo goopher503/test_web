@@ -1,8 +1,8 @@
 package platform
 
 import (
-	"web/models/mobfox"
-	data "web/models/redis"
+	"github.com/goopher503/web/models/mobfox"
+	data "github.com/goopher503/web/models/redis"
 
 	"github.com/NewTrident/mobfox"
 )

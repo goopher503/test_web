@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"web/models/smaato/log"
-	"web/models/smaato/request"
+	"github.com/goopher503/web/models/smaato/log"
+	"github.com/goopher503/web/models/smaato/request"
 	rlib "github.com/garyburd/redigo/redis"
 
 	"github.com/NewTrident/openrtb"

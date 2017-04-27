@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 	"io/ioutil"
-	data "web/models/redis"
+	data "github.com/goopher503/web/models/redis"
 
 	yaml "gopkg.in/yaml.v2"
 

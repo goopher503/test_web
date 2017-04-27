@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"net/http"
 	"time"
-	"web/models/baidu/log"
-	"web/models/baidu/request"
-	"web/models/descryptbes"
+	"github.com/goopher503/web/models/baidu/log"
+	"github.com/goopher503/web/models/baidu/request"
+	"github.com/goopher503/web/models/descryptbes"
 
 	rlib "github.com/garyburd/redigo/redis"
 

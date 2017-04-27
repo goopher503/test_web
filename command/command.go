@@ -1,7 +1,7 @@
 package main
 
 import (
-	"web/command/create"
+	"github.com/goopher503/web/command/create"
 )
 
 func main() {

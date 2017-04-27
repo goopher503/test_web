@@ -4,7 +4,7 @@ import (
 	// "fmt"
 	// "io/ioutil"
 	"github.com/pborman/uuid"
-	rlib "web/models/redis"
+	rlib "github.com/goopher503/web/models/redis"
 
 	// yaml "gopkg.in/yaml.v2"
 )

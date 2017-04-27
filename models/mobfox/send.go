@@ -8,8 +8,8 @@ import (
 	// "os"
 	"strconv"
 	"time"
-	"web/models/mobfox/log"
-	"web/models/mobfox/request"
+	"github.com/goopher503/web/models/mobfox/log"
+	"github.com/goopher503/web/models/mobfox/request"
 
 	rlib "github.com/garyburd/redigo/redis"
 

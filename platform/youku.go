@@ -2,8 +2,8 @@ package platform
 
 import (
 
-    "web/models/youku"
-    data "web/models/redis"
+    "github.com/goopher503/web/models/youku"
+    data "github.com/goopher503/web/models/redis"
 	you "github.com/NewTrident/youku"
 
 	// "fmt"

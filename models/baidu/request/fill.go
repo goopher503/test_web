@@ -5,7 +5,7 @@ import (
 	// "io/ioutil"
 
 	// yaml "gopkg.in/yaml.v2"
-	rlib "web/models/redis"
+	rlib "github.com/goopher503/web/models/redis"
 
 	"github.com/NewTrident/baidu"
 )

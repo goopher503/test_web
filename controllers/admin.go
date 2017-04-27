@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"web/command/create"
-	"web/models"
-	"web/platform"
+	"github.com/goopher503/web/command/create"
+	"github.com/goopher503/web/models"
+	"github.com/goopher503/web/platform"
 	// "runtime"
 
 	rlib "github.com/garyburd/redigo/redis"

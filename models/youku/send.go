@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 	base64old "encoding/base64"
-	"web/models/youku/log"
-	"web/models/youku/request"
+	"github.com/goopher503/web/models/youku/log"
+	"github.com/goopher503/web/models/youku/request"
 	rlib "github.com/garyburd/redigo/redis"
-	"web/models/decryptyk"
+	"github.com/goopher503/web/models/decryptyk"
 
 	"github.com/NewTrident/youku"
 	httpclient "github.com/go-httpclient"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "web/routers"
+	_ "github.com/goopher503/web/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 )

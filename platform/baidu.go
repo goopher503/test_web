@@ -1,8 +1,8 @@
 package platform
 
 import (
-	"web/models/baidu"
-	data "web/models/redis"
+	"github.com/goopher503/web/models/baidu"
+	data "github.com/goopher503/web/models/redis"
 	"github.com/NewTrident/baidu"
 	// "encoding/json"
 )

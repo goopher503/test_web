@@ -2,8 +2,8 @@ package platform
 
 import (
 
-    data "web/models/redis"
-    "web/models/smaato"
+    data "github.com/goopher503/web/models/redis"
+    "github.com/goopher503/web/models/smaato"
 	"github.com/NewTrident/openrtb"
 
 	"fmt"

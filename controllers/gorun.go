@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"web/models"
+	"github.com/goopher503/web/models"
 	rlib "github.com/garyburd/redigo/redis"
 )
 
