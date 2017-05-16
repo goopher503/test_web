@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"github.com/NewTrident/baidu"
-	httpclient "github.com/go-httpclient"
+	httpclient "github.com/mreiferson/go-httpclient"
 	"github.com/golang/protobuf/proto"
 )
 

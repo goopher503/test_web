@@ -10,7 +10,7 @@ import (
 )
 
 func MofPrintLog(request []byte,reponse []byte ) {
-	err := os.MkdirAll("models\\mobfox\\log\\log", 0777)
+	err := os.MkdirAll("models/mobfox/log/log", 0777)
 	if err != nil {
 		fmt.Printf("%s\r\n", err.Error())
 		os.Exit(-1)
@@ -21,8 +21,8 @@ func MofPrintLog(request []byte,reponse []byte ) {
 	var filename1 string
 	var filename2 string
 
-	filename1 = "models\\mobfox\\log\\log\\" + tm.Format("2006_01_02_15_04_05") +"_req"+".json"
-	filename2 = "models\\mobfox\\log\\log\\" + tm.Format("2006_01_02_15_04_05") +"_res"+".json"
+	filename1 = "models/mobfox/log/log/" + tm.Format("2006_01_02_15_04_05") +"_req"+".json"
+	filename2 = "models/mobfox/log/log/" + tm.Format("2006_01_02_15_04_05") +"_res"+".json"
 
 	logfile1, err := os.OpenFile(filename1, os.O_CREATE|os.O_APPEND, 0664) //创建文件
 

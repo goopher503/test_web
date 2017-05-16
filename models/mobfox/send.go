@@ -16,7 +16,7 @@ import (
 	"strings"
 
 	"github.com/NewTrident/mobfox"
-	httpclient "github.com/go-httpclient"
+	httpclient "github.com/mreiferson/go-httpclient"
 )
 
 var address string = "127.0.0.1:6379"

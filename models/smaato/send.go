@@ -14,7 +14,7 @@ import (
 	rlib "github.com/garyburd/redigo/redis"
 
 	"github.com/NewTrident/openrtb"
-	httpclient "github.com/go-httpclient"
+	httpclient "github.com/mreiferson/go-httpclient"
 )
 var address string = "127.0.0.1:6379"
 var pass string = "molibaiju"

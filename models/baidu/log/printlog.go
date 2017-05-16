@@ -10,7 +10,7 @@ import (
 )
 
 func BaiDuPrintLog(request *baidurtb.BidRequest, response *baidurtb.BidResponse, num int) {
-	err := os.MkdirAll("models\\baidu\\log\\log", 0777)
+	err := os.MkdirAll("models/baidu/log/log", 0777)
 	if err != nil {
 		fmt.Printf("%s\r\n", err.Error())
 		os.Exit(-1)
@@ -20,7 +20,7 @@ func BaiDuPrintLog(request *baidurtb.BidRequest, response *baidurtb.BidResponse,
 
 	var filename string
 
-	filename = "models\\baidu\\log\\log\\" + tm.Format("2006_01_02_15_04_05") + ".log"
+	filename = "models/baidu/log/log/" + tm.Format("2006_01_02_15_04_05") + ".log"
 
 	logfile, err := os.OpenFile(filename, os.O_CREATE|os.O_APPEND, 0664) //创建文件
 
